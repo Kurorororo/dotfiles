@@ -78,3 +78,9 @@ set smarttab
 
 " filetypeによって設定を変える
 filetype plugin indent on
+
+syntax on
+colorscheme onedark
+set background=dark
+set guifont=Osaka-Mono:h17
+set colorcolumn=81

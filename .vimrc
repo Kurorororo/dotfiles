@@ -13,6 +13,8 @@ call dein#add('scrooloose/nerdtree')
 
 call dein#add('tomasr/molokai')
 
+call dein#add('bronson/vim-trailing-whitespace')
+
 call dein#end()
 
 " Unite

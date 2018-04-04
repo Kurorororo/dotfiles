@@ -13,8 +13,6 @@ call dein#add('scrooloose/nerdtree')
 
 call dein#add('tomasr/molokai')
 
-call dein#add('joshdick/onedark.vim')
-
 call dein#end()
 
 " Unite
@@ -80,7 +78,7 @@ set smarttab
 filetype plugin indent on
 
 syntax on
-colorscheme onedark
+colorscheme molokai
 set background=dark
 set guifont=Osaka-Mono:h17
 set colorcolumn=81

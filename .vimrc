@@ -75,6 +75,10 @@ set autoindent
 set smartindent
 " 行頭の余白内で Tab を打ち込むと、'shiftwidth' の数だけインデントする
 set smarttab
+" 開いているディレクトリに移動する
+set autochdir
+" ファイルが保存されていなくても buffer を切り替える
+set hidden
 
 " filetypeによって設定を変える
 filetype plugin indent on
